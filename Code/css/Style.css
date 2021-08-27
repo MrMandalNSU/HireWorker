@@ -1,0 +1,1477 @@
+
+/*<!--Container-->*/
+
+.container-1{
+    width:100%;
+}
+.container-2{
+    width:37%;
+}
+
+.CatagoryContainer{
+    width: 1293.34px;
+    margin-top: 70px;
+    margin-left: 8%;
+    border-radius: 5px;
+    position: absolute;
+    background: black;
+    animation: fade4 11s;
+
+}
+
+
+/*<!--Body-->*/
+
+
+body{
+  color: black;
+  font-family: courier;
+  margin : 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/pic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: sans-serif;
+}
+
+
+
+
+.box-1{
+    font-family: times new roman;
+    font-size: 300%;
+    font-weight: bold;
+    background-color:black;
+    color:white;
+    border:5px coral solid;
+    border-width:3px;
+    padding:10px;
+    text-align: center;
+    position: fixed;
+    width:98.3%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+}
+.box-1 h1{
+
+}
+
+
+.box-2{
+ 
+    color:black;
+    font-size: 150%;
+    padding:10px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 150px;
+    line-height: 1.6em;
+}
+
+.box-2 h1{
+    margin-left: -28%;
+}
+
+
+.a-box{
+    width:800px;
+    height:565px;
+    border:none;
+
+}
+.a-box h1{
+    font-family: sans-serif;
+    text-shadow: 3px 3px 10px white;
+    padding:8px;
+    position:absolute;
+    font-size: 250%;
+    background-color: transparent;
+    border-radius: 20px;
+    color: black;
+    text-align: justify;
+    margin: 10px;
+    top:130px;
+    left:10px;
+}
+
+.a-box h2{
+    position:absolute;
+    margin-left: 300px;
+    top:550px;
+    left:270px;
+}
+
+
+
+.c-box{
+    width:800px;
+    height:565px;
+    border:none;
+
+}
+.c-box h1{
+    padding:8px;
+    position:absolute;
+    font-size: 250%;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 320px;
+    top:280px;
+    left:10px;
+}
+
+.c-box h2{
+    position:absolute;
+    margin-left: 300px;
+    top:400px;
+    left:100px;
+}
+
+
+.p-box{
+    width:800px;
+    height:775px;
+    border:none;
+    position:relative;
+    background-image:url('../images/worker.png');
+    background-size: 800px 800px;
+    background-repeat: no-repeat;
+    background-position:-41px -3px;
+
+}
+
+.p-box h1{
+    padding:8px;
+    position:absolute;
+    font-size: 250%;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    top:280px;
+    left:10px;
+}
+
+
+
+
+
+/*<!--Backgrounds--!>*/
+
+.background-catagory{
+    background: rgba(0,0,0,0.7);
+}
+
+
+.background-features{
+    background: rgba(0,0,0,1);
+    width: 100%
+    height:100%;
+}
+
+
+
+
+
+/*<!--Sub Menu-->*/
+
+#navbar{
+    font-size: 50%;
+    background-color:#333;
+    color:white;
+    width: 101.2%;
+    padding: 0px;
+    margin-left: -9PX;
+    margin-top: 10px;
+    text-align: 200px;
+}
+
+#navbar ul{
+    padding:0px;
+    list-style: none;
+    margin-top: -12px;
+    margin-left: -50px;
+}
+
+#navbar li{
+    display:inline;
+    margin-left: 20px;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+
+}
+
+
+
+
+/*<!--Pop Ups--!>*/
+
+
+
+.Pop-Signup{
+   background-color: rgba(0,0,0, .8);
+   width:100%;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   opacity: 0;
+   visibility: hidden;
+}
+
+#popup1:target{
+   transition:  .5s;
+   opacity: 1;
+   visibility: visible;
+}
+#popup1:target .Signupcontent{
+    transition: .5s;
+    opacity: 1;
+    visibility: visible;
+}
+.closesymbol{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+}
+.closesymbol:hover{
+    color:darkred;
+    transition: .5s;
+}
+
+
+
+
+
+/*<!--ANIMATIONS-->*/
+.text1{
+  color: white;
+  width: 101.2%;
+  font-size: 100%;
+  font-weight: 700;
+  height: 35px;
+  letter-spacing: 8px;
+    margin-left: -9PX;
+  background: black;
+  position: relative;
+  animation: text 1.7s 1;
+}
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 80px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+
+
+
+.c-float h1{
+    position: absolute;
+    font-family: cursive;
+    font-size:70px;
+    left: 35%;
+    background: rgba(0,0,0,0.5);
+    border: 3px solid #3498db; 
+    border-radius: 10px;
+    padding:20px;
+    color: darkred; 
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    top: 35%;
+    visibility: hidden;
+    animation: c-h1 15s;      
+}
+.c-float h2{
+    position: absolute;
+    font-family: cursive ;
+    font-size:70px;
+    text-align: center;
+    left: 510px;
+    background: rgba(0,0,0,0.5);
+    border: 3px solid #3498db; 
+    border-radius: 10px;
+    padding:20px;
+    color: darkred; 
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    top: 155px;
+    visibility: hidden;
+    animation: c-h2 15s;
+}
+.c-float h3{
+    position: absolute;
+    font-family: cursive;
+    font-size:70px;
+    text-align: center;
+    left: 295px;
+    background: rgba(0,0,0,0.5);
+    border: 3px solid #3498db; 
+    border-radius: 10px;
+    padding:20px;
+    color: darkred; 
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px; 
+    top: 143px;
+    visibility: hidden;
+    animation: c-h3 12s;
+}
+@keyframes c-h1 {
+  0%{
+    opacity: 0;
+    visibility: visible;
+  }
+  10%{
+    opacity: 1;
+    visibility: visible;
+  }
+  20%{
+    opacity: 0;
+    visibility: visible;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes c-h2 {
+  0%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 0;
+    visibility: visible;
+  }
+  30%{
+    opacity: 1;
+    visibility: visible;
+  }
+  40%{
+    opacity: 0;
+    visibility: visible;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes c-h3 {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+    visibility: visible;
+  }
+  60%{
+    opacity: 1;
+    visibility: visible;
+  }
+  70%{
+    opacity: 1;
+    visibility: visible;
+  }
+  80%{
+    opacity: 0;
+    visibility: visible;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes fade4 {
+  0%{
+    opacity: 0;
+    visibility: hidden;
+  }
+  80%{
+    opacity: 0;
+    visibility: hidden;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes c-logout {
+  0%{
+    opacity: 1;
+  }
+  15%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 0;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+
+/*<!--BUTTONS-->*/
+
+
+
+.loginbox .temp{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox .temp[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: background-color 1s ease 0s;
+}
+.loginbox .temp[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+}
+
+
+
+
+
+
+
+.buttonA{
+    position:absolute;
+    top:10px;
+    left:100px;
+    padding:8px;
+    width:50%;
+    font-size:30px;
+    background-color:darkred;
+    color:white;
+    border:2px darkred solid;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color 1s ease 0s;
+}
+.buttonA:hover{
+    background:black;
+    color:white;
+}
+
+.buttonA[type="home"]{
+    padding:8px;
+    width:200px;
+    font-size:30px;
+    background-color:black;
+    color:white;
+    border:2px darkred solid;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: fixed;
+    border-radius: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+}
+.buttonA[type="home"]:hover{
+    cursor: pointer;
+    color:white;
+}
+.buttonA[type="home"]::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: darkred;
+  z-index: -1;
+  transition: 0.8s;
+}
+.buttonA[type="home"]::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.buttonA[type="home"]::before{
+  height: 180%;
+}
+.buttonA[type="home"]:hover::before{
+  height: 0%;
+}
+
+
+.buttonA[type="signup"]{
+    top: 30px;
+    padding:8px;
+    width:200px;
+    font-size:30px;
+    background-color:black;
+    color:white;
+    border:2px darkred solid;
+    margin-left: 67%;
+    margin-right: 100px;
+    margin-top: 0px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: fixed;
+    border-radius: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+}
+.buttonA[type="signup"]:hover{
+    cursor: pointer;
+    color:white;
+}
+.buttonA[type="signup"]::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: darkred;
+  z-index: -1;
+  transition: 0.8s;
+}
+.buttonA[type="signup"]::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.buttonA[type="signup"]::before{
+  height: 180%;
+}
+.buttonA[type="signup"]:hover::before{
+  height: 0%;
+}
+
+.buttonA[type="loginpage"]{
+    top: 30px;
+    padding:8px;
+    width:200px;
+    font-size:30px;
+    background-color:black;
+    color:white;
+    border:2px darkred solid;
+    margin-left: 1040px;
+    margin-right: 100px;
+    margin-top: 0px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: fixed;
+    border-radius: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+}
+.buttonA[type="loginpage"]:hover{
+    cursor: pointer;
+    color:white;
+}
+.buttonA[type="loginpage"]::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: darkred;
+  z-index: -1;
+  transition: 0.8s;
+}
+.buttonA[type="loginpage"]::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.buttonA[type="loginpage"]::before{
+  height: 180%;
+}
+.buttonA[type="loginpage"]:hover::before{
+  height: 0%;
+}
+
+
+.buttonA[type="logout"]{
+    top: 10px;
+    padding:8px;
+    width:150px;
+    font-size:30px;
+    background-color:black;
+    color:white;
+    border:2px darkred solid;
+    margin-left: 80%;
+    margin-right: 100px;
+    margin-top: 0px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: fixed;
+    transition: 0.8s;
+    overflow: hidden;
+}
+.buttonA[type="logout"]:hover{
+    cursor: pointer;
+    color:white;
+}
+.buttonA[type="logout"]::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: darkred;
+  z-index: -1;
+  transition: 0.8s;
+}
+.buttonA[type="logout"]::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.buttonA[type="logout"]::before{
+  height: 180%;
+}
+.buttonA[type="logout"]:hover::before{
+  height: 0%;
+}
+
+
+
+
+
+
+.buttonB{
+    position:absolute;
+    top:460px;
+    left:210px;
+    padding:8px;
+    width:20%;
+    font-size:30px;
+    background-color:darkred;
+    color:white;
+    border:2px darkred solid;
+    border-radius: 20px;
+    font-family: sans-serif;
+    background: darkred;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: 0.6s;
+    overflow: hidden;
+}
+.buttonB[type="hire"]{
+    position:absolute;
+    top:380px;
+    left:220px;
+    padding:8px;
+    width:20%;
+    font-size:30px;
+    background-color:darkred;
+    color:white;
+    border:2px darkred solid;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transform: translate(-50%, -50%);
+    transition: 0.6s;
+    overflow: hidden;
+}
+.buttonB[type="hire"]:hover{
+    background:black;
+    transition: 2.5s;
+    color:white;
+}
+.buttonB:hover{
+    background:black;
+    transition: 1.8s;
+    color:white;
+}
+.buttonB:focus{
+    outline: none;
+} 
+.buttonB:before{
+    content:'';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,.5 );
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+.buttonB:after{
+    content:'';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,.2 );
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+}
+
+.buttonB:hover:before{
+  transform: translateX(300px) skewX(-15deg);
+  opacity: .6;
+  transition: .7s ;
+}
+
+.buttonB:hover:after{
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: .7s ;
+}
+
+
+.buttonB[type="aSignup"]{
+    position:absolute;
+    top:580px;
+    left:50%;
+    padding:8px;
+    width:20%;
+    font-size:30px;
+    background-color:darkred;
+    color:white;
+    border:2px darkred solid;
+    border-radius: 20px;
+    font-family: sans-serif;
+    background: darkred;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: 0.6s;
+    overflow: hidden;
+}
+.buttonB[type="aSignup"]:hover{
+    background:black;
+    transition: 1.8s;
+    color:white;
+}
+.buttonB[type="mail"]{
+    position:absolute;
+    top:460px;
+    left:50%;
+    padding:8px;
+    width:30%;
+    font-size:30px;
+    background-color:darkred;
+    color:white;
+    border:2px darkred solid;
+    border-radius: 20px;
+    font-family: sans-serif;
+    background: darkred;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: 0.6s;
+    overflow: hidden;
+}
+.buttonB[type="mail"]:hover{
+    background:black;
+    transition: 1.8s;
+    color:white;
+}
+
+
+
+
+
+
+.buttonC{
+    padding:20px;
+    height: 200px;
+    float: left;
+    width:390px;
+    font-size:50px;
+    background:darkred;
+    color:white;
+    border:2px darkred solid;
+    margin-top: -40px;
+    margin-left: 0px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    position: fixed;
+    overflow: hidden;
+}
+.buttonC:hover{
+    cursor: pointer;
+    color:white;
+}
+
+
+.buttonC::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: black;
+  z-index: -1;
+  transition: 0.8s;
+}
+.buttonC::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.buttonC:hover::before{
+  height: 180%;
+}
+
+
+
+.buttonC1{
+    padding:20px;
+    height: 200px;
+    float: right;
+    width:390px;
+    font-size:50px;
+    background:black;
+    color:white;
+    border:2px darkred solid;
+    margin-top: -40px;
+    margin-left: 48%;
+    border-radius: 20px;
+    font-family: sans-serif;
+    position: fixed;
+    overflow: hidden;
+}
+
+.buttonC1:hover{
+    cursor: pointer;
+    color:white;
+}
+
+.buttonC1::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: darkred;
+  z-index: -1;
+  transition: 0.8s;
+}
+.buttonC1::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.buttonC1::before{
+  height: 180%;
+}
+.buttonC1:hover::before{
+  height: 0%;
+}
+
+
+
+
+
+
+
+.buttonSfix{
+    font-family: cursive;
+    font-size: 50%;
+    background: black;
+    color:white;
+    font-weight: bold;
+    border:5px coral solid;
+    border-width:3px;
+    padding:8px;
+    text-align: left;
+    position: fixed;
+    width:8%;
+    top:100px;
+    left: 50px;
+    color:coral;
+    border-radius: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+}
+.buttonSfix:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    color:white;
+    transition: 0.5s;
+}
+.buttonSfix::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: darkred;
+  z-index: -1;
+  transition: 0.8s;
+}
+.buttonSfix::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.buttonSfix:hover::before{
+  height: 180%;
+}
+
+
+
+
+.button3:hover{
+    background:black;
+    color:darkred;
+}
+
+
+
+
+
+
+
+
+.boxbutton {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    background: black;
+    margin: 20px;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.imagebox {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.b1 {
+    max-width: 100%;
+    transition: transform 2s;
+}
+.boxbutton:hover .b1 {
+    transform: scale(1.2);
+    -webkit-filter: blur(2px);
+}
+
+
+
+.details{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.8);
+    transform: translateY(-50%);
+    transform: scaleY(0);
+    transition: transform .5s;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.boxbutton:hover .details{
+    transform: scaleY(1);
+}
+
+
+
+
+
+
+
+
+
+.navbutton:hover{
+    background:coral;
+    border:5px coral solid;
+    border-radius: 20px;
+    color:black;
+    transition: background-color 1s ease 0s;
+
+}
+
+
+
+
+
+.block{
+    float:left;
+    width:33.3%;
+
+}
+
+#sidebar{
+    float:right;
+    height: 50%;
+    width:55%;
+    color:black;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#catagorylogout{
+    animation: c-logout 11s;
+}
+
+/*<!--FOOTERS-->*/
+
+
+
+
+#main-footer{
+    background: darkgrey;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding:20px;
+    margin-top:375px;
+}
+
+#c-footer{
+    background: darkgrey;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding:20px;
+    margin-top:53px;
+}
+#f-footer{
+    background: darkgrey;
+    color:white;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    width: 97.393%;
+    padding:20px;
+    margin-top:900px;
+}
+#cat-footer{
+    background: darkgrey;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding:20px;
+    margin-top:67%;
+}
+
+
+
+
+
+
+/*<!--AVATARS-->*/
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+
+
+
+
+/*<!--LoginBOXES-->*/
+
+
+.loginbox{
+    width: 320px;
+    height: 460px;
+    background: #000;
+    color: #fff;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="phonenumber"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: background-color 1s ease 0s;
+}
+
+.loginbox option[type="select"]{
+    background-color: black;
+    color: white;
+}
+.loginbox select{
+    background-color: black;
+    color: white;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: blue;
+}
+
+
+
+
+
+/*<!--SignUpBOXES-->*/
+
+
+.signupchoicebox{
+    width: 800px;
+    height: 120px;
+    border:5px black solid;
+    border-width:3px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+}
+
+.signupbox{
+    width: 700px;
+    height: 510px;
+    background: #000;
+    color: #fff;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+.signupbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.signupbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signupbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.signupbox input[type="phonenumber"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.signupbox input[type="text1"]
+{
+    width: 47%;
+    border: none; 
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.signupbox input[type="text2"]
+{
+    position: absolute;
+    margin-top: 0px;
+    margin-left:10px;
+    width: 47%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.signupbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 45px;
+    transition: background-color 1s ease 0s;
+}
+
+.signupbox option[type="select"]{
+    background-color: black;
+    color: white;
+}
+.signupbox select{
+    background-color: black;
+    color: white;
+}
+
+.signupbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+}
+.signupbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.signupbox a:hover
+{
+    color: blue;
+}
+
+
+
+/*<!--Password Change--!>*/
+
+
+.p-change{
+    width: 700px;
+    height: 510px;
+    background: #000;
+    color: #fff;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.p-change p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.p-change input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.p-change input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.p-change input[type="phonenumber"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.p-change input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: background-color 1s ease 0s;
+}
+
+.p-change option[type="select"]{
+    background-color: black;
+    color: white;
+}
+.p-change select{
+    background-color: black;
+    color: white;
+}
+.p-change input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+}
+.p-change a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.p-change a:hover
+{
+    color: blue;
+}
+
+
+
+/*<!--LISTS--!>*/
+
+
+.my-list li:nth-child(odd){
+    float: left;
+    background: lightgrey;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 550px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    border-radius: 15px;
+ 
+
+}
+.my-list li:nth-child(even){
+    float: right;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 550px;
+    background: grey;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.my-list{
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 3px 3px 20px white;
+    margin-top: 10%;
+    list-style: none;
+}
+
+
+
+
+
+
