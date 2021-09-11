@@ -22,18 +22,15 @@
     <div class="loginbox">
     <img src="../../images/avatar.png" class="avatar">
         <h1>Login Here</h1>
-        <form>
+        <form method="post" action="workerlogin.php">
             <p>Username</p>
-            <input type="text" name="" placeholder="Enter Username">
+            <input type="text" name="userid" placeholder="Enter Username">
             <p>Password</p>
-            <input type="password" name="" placeholder="Enter Password">
-            <!-- <input type="submit" name="" value="Login"> -->
+            <input type="password" name="password" placeholder="Enter Password">
+            <input type="submit" name="submit" value="Login">
             <a href="../ChangePassword/WorkerPassChange.html">Lost your password?</a><br>
             <a href="../Signups/signup.html">Don't have an account?</a>
         </form>
-        <a href="../AfterLogin/WorkerInterface/WorkerInterface.html"><button class="temp" type="submit">Login</button></a>
-    </div>
-    <a class="temporary" href="../AfterLogin/CustomerInterface/Catagory.html" style="text-decoration: none">.</a>
 
 </body>
 </head>

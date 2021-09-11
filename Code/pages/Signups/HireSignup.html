@@ -19,15 +19,19 @@
     <div class="signupbox">
     <img src="../../images/avatar.png" class="avatar">
         <h1>Sign Up</h1>
-        <form>
+        <form method="post" action="customersignup.php">
+            <p>User Name</p>
+            <input type="text1" name="userid" placeholder="Enter A 8 Digit Id" >
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter A 6 Digit Password">
             <p>Name</p>
-            <input type="text1" name="" placeholder="First Name" >
-            <input type="text2" name="" placeholder="Last Name">
+            <input type="text1" name="fname" placeholder="First Name" >
+            <input type="text2" name="lname" placeholder="Last Name">
             <p>Phone Number</p>
-            <input type="phonenumber" name="" placeholder="Enter Phone Number">
+            <input type="phonenumber" name="phone" placeholder="Enter Phone Number">
             <p>Email</p>
-            <input type="text" name="" placeholder="Enter Email Address">
-            <input type="submit" name="" value="SignUp">
+            <input type="text" name="mail" placeholder="Enter Email Address">
+            <input type="submit" name="submit" value="SignUp">
         </form>
         
     </div>
